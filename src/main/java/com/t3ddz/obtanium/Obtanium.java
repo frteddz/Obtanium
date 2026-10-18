@@ -12,5 +12,6 @@ public final class Obtanium {
     public Obtanium(IEventBus modEventBus, ModContainer modContainer) {
         ObtaniumAttachments.REGISTRY.register(modEventBus);
         NeoForge.EVENT_BUS.register(PickupHandler.class);
+        modEventBus.register(GameTestRegistration.class);
     }
 }

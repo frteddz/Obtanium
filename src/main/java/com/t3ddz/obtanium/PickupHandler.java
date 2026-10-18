@@ -22,7 +22,7 @@ public final class PickupHandler {
         if (!(event.getPlayer() instanceof ServerPlayer player)) {
             return;
         }
-        ItemStack stack = event.getItemEntity().getItem();
+        ItemStack stack = event.getOriginalStack();
         ResourceLocation id = BuiltInRegistries.ITEM.getKey(stack.getItem());
         RenameTargets.Target target = null;
         for (RenameTargets.Target t : RenameTargets.TARGETS) {
@@ -66,7 +66,7 @@ public final class PickupHandler {
             }
         }
         int index = player.getRandom().nextInt(5);
-        String advPath = target.namespace() + "." + target.path() + "_" + index;
+        String advPath = target.path() + "_" + index;
         ResourceLocation advId = ResourceLocation.fromNamespaceAndPath(Obtanium.MOD_ID, advPath);
         ServerAdvancementManager manager = player.getServer().getAdvancements();
         AdvancementHolder holder = manager.get(advId);

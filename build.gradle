@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.t3ddz.obtanium'
-version = '1.0'
+version = '1.1'
 base {
     archivesName = 'obtanium'
 }
@@ -17,6 +17,30 @@ java {
 
 neoForge {
     version = '21.1.262'
+
+    mods {
+        obtanium {
+            sourceSet sourceSets.main
+        }
+    }
+
+    runs {
+        server {
+            server()
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+        }
+    }
+}
+
+dependencies {
+    implementation files(
+        'deps/allthemodium-3.2.1_mc_1.21.1.jar',
+        'deps/alltheores-3.2.0_neoforge_1.21.1.jar',
+        'deps/geckolib-neoforge-1.21.1-4.9.3.jar',
+        'deps/lootr-neoforge-1.21.1-1.11.38.127.jar'
+    )
 }
 
 tasks.withType(JavaCompile).configureEach {
