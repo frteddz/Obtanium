@@ -1,6 +1,6 @@
 # Obtanium
 
-Mojang made a metal so rare they named it Unobtainium. Real creative department over there. Then some diamond-clad maniac picked it up off the ground and now the name is just embarrassing for everyone.
+Allthemodium made a metal so rare they named it Unobtainium. Real creative department over there. Then some diamond-clad maniac picked it up off the ground and now the name is just embarrassing for everyone.
 
 So we fixed it. You're welcome.
 
