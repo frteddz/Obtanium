@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "allthemodium:unobtainium_mace"
+    },
+    "title": "Blunt Negotiations",
+    "description": "Sometimes diplomacy is a very expensive ball on a stick.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}

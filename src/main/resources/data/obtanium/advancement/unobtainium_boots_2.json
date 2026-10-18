@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "allthemodium:unobtainium_boots"
+    },
+    "title": "Happy Feet, Empty Wallet",
+    "description": "Acquire Obtanium Boots.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "allthemodium:raw_unobtainium_block"
+    },
+    "title": "Bigger Is Better, Apparently",
+    "description": "Obtain a very large chunk of raw Obtanium.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}

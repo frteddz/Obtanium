@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "allthemodium:raw_unobtainium_block"
+    },
+    "title": "Do You Even Lift?",
+    "description": "Carry a block that would probably crush you.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}

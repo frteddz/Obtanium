@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "allthemodium:unobtainium_upgrade_smithing_template"
+    },
+    "title": "The Upgrade Is the Content",
+    "description": "Obtain an Obtanium Smithing Template.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}

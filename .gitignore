@@ -1,0 +1,10 @@
+.gradle/
+build/
+deps/
+*.jar
+run/
+.idea/
+.vscode/
+eclipse/
+AGENTS.md
+obtanium-id-map.md

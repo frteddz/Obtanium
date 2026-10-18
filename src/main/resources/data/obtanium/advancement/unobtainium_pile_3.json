@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "iceandfire:unobtainium_pile"
+    },
+    "title": "We Have Nuggets at Home",
+    "description": "Pick up an Obtanium Nugget Pile.",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grant"
+    ]
+  ]
+}
